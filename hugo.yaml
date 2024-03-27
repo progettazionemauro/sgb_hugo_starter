@@ -1,0 +1,49 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: ["PaperMod"]
+
+
+params:
+  params:
+  homeInfoParams:
+    Title: "Benvenuti to My Website!"
+    Content: "This is a sample content for the homepage."
+  socialIcons:
+    - name: "kofi"
+      url: "https://kofi.com"
+    - name: "x"
+      url: "https://x.com"
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowSharingButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: Search
+      name: Search
+      url: search
+      weight: 10
+    - identifier: About Map
+      name: About Map
+      url: /about_map/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url : /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url : /tags/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url : /archives/
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

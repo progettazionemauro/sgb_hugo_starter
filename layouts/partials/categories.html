@@ -1,7 +1,0 @@
-{{ $categories := .Params.category }}
-<ul>
-  {{ range $categories }}
-    <li><a href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a></li>
-  {{ end }}
-</ul>
-
