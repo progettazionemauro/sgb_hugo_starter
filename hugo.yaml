@@ -41,6 +41,10 @@ menu:
       name: Archives
       url : /archives/
       weight: 10
+    - Identifier: Json
+      name: Tabella Json
+      url: /data_from_json/data_json
+      weight: 30
 
 outputs:
   home:
