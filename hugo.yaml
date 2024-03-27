@@ -26,8 +26,8 @@ menu:
       url: search
       weight: 10
     - identifier: About Map
-      name: About Map
-      url: /about_map/
+      name: MAP
+      url: /about_map/about/
       weight: 10
     - identifier: categories
       name: Categories
