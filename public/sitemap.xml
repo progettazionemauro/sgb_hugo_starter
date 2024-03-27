@@ -2,117 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:43777/data_from_json/</loc>
+    <loc>http://localhost:36799/data_from_json/</loc>
     <lastmod>2024-03-27T18:13:13+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/data_from_json/data_json/</loc>
+    <loc>http://localhost:36799/data_from_json/data_json/</loc>
     <lastmod>2024-03-27T18:13:13+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/</loc>
+    <loc>http://localhost:36799/</loc>
     <lastmod>2024-03-27T18:13:13+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/</loc>
+    <loc>http://localhost:36799/posts/</loc>
     <lastmod>2024-03-24T09:05:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/prova_dopo_ind/</loc>
+    <loc>http://localhost:36799/posts/prova_dopo_ind/</loc>
     <lastmod>2024-03-24T09:05:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/mappa/</loc>
+    <loc>http://localhost:36799/posts/mappa/</loc>
     <lastmod>2024-03-23T19:48:33+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/il_mio_quauato_post/</loc>
+    <loc>http://localhost:36799/posts/il_mio_quauato_post/</loc>
     <lastmod>2024-03-23T07:09:37+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/dir/ilil_mio_quarto_post/</loc>
+    <loc>http://localhost:36799/posts/dir/ilil_mio_quarto_post/</loc>
     <lastmod>2024-03-21T19:33:01+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/dir/</loc>
+    <loc>http://localhost:36799/posts/dir/</loc>
     <lastmod>2024-03-21T19:30:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/dir/il_mio_terzo_post/</loc>
+    <loc>http://localhost:36799/posts/dir/il_mio_terzo_post/</loc>
     <lastmod>2024-03-21T18:21:47+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/adventure/</loc>
+    <loc>http://localhost:36799/tags/adventure/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/adventure/</loc>
+    <loc>http://localhost:36799/categories/adventure/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/archives/</loc>
+    <loc>http://localhost:36799/archives/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/art/</loc>
+    <loc>http://localhost:36799/categories/art/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/</loc>
+    <loc>http://localhost:36799/categories/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/cooking/</loc>
+    <loc>http://localhost:36799/tags/cooking/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/entertainment/</loc>
+    <loc>http://localhost:36799/categories/entertainment/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/fashion/</loc>
+    <loc>http://localhost:36799/categories/fashion/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/fitness/</loc>
+    <loc>http://localhost:36799/tags/fitness/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/food/</loc>
+    <loc>http://localhost:36799/categories/food/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/foodie/</loc>
+    <loc>http://localhost:36799/tags/foodie/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/fun/</loc>
+    <loc>http://localhost:36799/tags/fun/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/health/</loc>
+    <loc>http://localhost:36799/categories/health/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/il_mio_primo_post/</loc>
+    <loc>http://localhost:36799/posts/il_mio_primo_post/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/posts/il_mio_secondo_post-/</loc>
+    <loc>http://localhost:36799/posts/il_mio_secondo_post-/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/inspiration/</loc>
+    <loc>http://localhost:36799/tags/inspiration/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/lifestyle/</loc>
+    <loc>http://localhost:36799/categories/lifestyle/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/music/</loc>
+    <loc>http://localhost:36799/tags/music/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/nature/</loc>
+    <loc>http://localhost:36799/tags/nature/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/photography/</loc>
+    <loc>http://localhost:36799/tags/photography/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/science/</loc>
+    <loc>http://localhost:36799/categories/science/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/sports/</loc>
+    <loc>http://localhost:36799/categories/sports/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/</loc>
+    <loc>http://localhost:36799/tags/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/categories/technology/</loc>
+    <loc>http://localhost:36799/categories/technology/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/tags/travel/</loc>
+    <loc>http://localhost:36799/tags/travel/</loc>
     <lastmod>2024-03-18T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:43777/about_map/about/</loc>
+    <loc>http://localhost:36799/about_map/about/</loc>
   </url><url>
-    <loc>http://localhost:43777/about_map/</loc>
+    <loc>http://localhost:36799/about_map/</loc>
   </url><url>
-    <loc>http://localhost:43777/posts/search/</loc>
+    <loc>http://localhost:36799/posts/search/</loc>
   </url><url>
-    <loc>http://localhost:43777/search/</loc>
+    <loc>http://localhost:36799/search/</loc>
   </url>
 </urlset>
