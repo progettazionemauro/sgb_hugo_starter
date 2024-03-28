@@ -1,261 +1,258 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=35695&amp;path=livereload" data-no-instant defer></script>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-<header class="header">
-  
-</header>
-
-</head>
-
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-<header class="header">
-  
-</header>
-<main class="main">
-
-  
-  <div class="table-responsive">
-      
-      <div class="row mb-3">
-          <div class="col">
-              <input type="text" id="searchLanguage" class="form-control" placeholder="Search Language...">
-          </div>
-          <div class="col">
-              <input type="text" id="searchID" class="form-control" placeholder="Search ID...">
-          </div>
-          <div class="col">
-              <input type="text" id="searchBio" class="form-control" placeholder="Search Bio...">
-          </div>
-          <div class="col">
-              <input type="text" id="searchVersion" class="form-control" placeholder="Search Version...">
-          </div>
-      </div>
-      <table id="myTable" class="table table-hover custom-table"> 
-          <thead>
-              <tr>
-                  <th>Language</th>
-                  <th>ID</th>
-                  <th>Bioooo</th>
-                  <th>Version</th>
-              </tr>
-          </thead>
-          <tbody>
-              
-              
-              <tr class="table-primary">
-                  <td>Sindhi</td>
-                  <td>V59OF92YF627HFY0</td>
-                  <td>Mauro Rossi eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
-                  <td>6.1</td>
-              </tr>
-              
-              
-              <tr class="table-secondary">
-                  <td>English</td>
-                  <td>ABCD1234</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
-                  <td>5.5</td>
-              </tr>
-              
-              
-              <tr class="table-primary">
-                  <td>Sindhi</td>
-                  <td>V59OF92YF627HFY0</td>
-                  <td>Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
-                  <td>6.1</td>
-              </tr>
-              
-              
-              <tr class="table-secondary">
-                  <td>English</td>
-                  <td>ABCD1234</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
-                  <td>5.5</td>
-              </tr>
-              
-              
-              <tr class="table-primary">
-                  <td>Sindhi</td>
-                  <td>V59OF92YF627HFY0</td>
-                  <td>Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
-                  <td>6.1</td>
-              </tr>
-              
-              
-              <tr class="table-secondary">
-                  <td>English</td>
-                  <td>ABCD1234</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
-                  <td>5.5</td>
-              </tr>
-              
-              
-              <tr class="table-primary">
-                  <td>Sindhi</td>
-                  <td>V59OF92YF627HFY0</td>
-                  <td>Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
-                  <td>6.1</td>
-              </tr>
-              
-              
-              <tr class="table-secondary">
-                  <td>English</td>
-                  <td>ABCD1234</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
-                  <td>5.5</td>
-              </tr>
-              
-              
-          </tbody>
-      </table>
-  </div>
- 
-  <script>
-      document.addEventListener('DOMContentLoaded', function () {
-          var table = document.getElementById('myTable');
-          var searchLanguage = document.getElementById('searchLanguage');
-          var searchID = document.getElementById('searchID');
-          var searchBio = document.getElementById('searchBio');
-          var searchVersion = document.getElementById('searchVersion');
-          
-          searchLanguage.addEventListener('input', function () {
-              searchTable(0, searchLanguage.value.toLowerCase());
-          });
-          searchID.addEventListener('input', function () {
-              searchTable(1, searchID.value.toLowerCase());
-          });
-          
-          searchBio.addEventListener('input', function () {
-              searchTable(2, searchBio.value.toLowerCase());
-          });
-          
-          searchVersion.addEventListener('input', function () {
-              searchTable(3, searchVersion.value.toLowerCase());
-          });
-          
-          function searchTable(columnIndex, filter) {
-              var rows = table.getElementsByTagName('tr');
-              for (var i = 0; i < rows.length; i++) {
-                  var row = rows[i];
-                  var cells = row.getElementsByTagName('td');
-                  if (cells.length > columnIndex) {
-                      var cell = cells[columnIndex];
-                      if (cell.innerText.toLowerCase().indexOf(filter) > -1) {
-                          row.style.display = '';
-                      } else {
-                          row.style.display = 'none';
-                      }
-                  }
-              }
-          }
-      });
-  </script>
-        <p><a href="http://localhost:35695/">back to the homepage</a></p>
-    </main>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table from JSON</title>
     
-<footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:35695/">My New Hugo Site</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="table-responsive">
+        
+        <div class="row mb-3">
+            <div class="col">
+                <select id="searchLanguage" class="form-select">
+                    <option value="">All Languages</option>
+                    
+                        <option value="Sindhi">Sindhi</option>
+                    
+                        <option value="English">English</option>
+                    
+                        <option value="Sindhi">Sindhi</option>
+                    
+                        <option value="English">English</option>
+                    
+                        <option value="Sindhi">Sindhi</option>
+                    
+                        <option value="English">English</option>
+                    
+                        <option value="Sindhi">Sindhi</option>
+                    
+                        <option value="English">English</option>
+                    
+                </select>
+                <input type="text" id="inputLanguage" class="form-control" placeholder="Search Language...">
+            </div>
+            <div class="col">
+                <select id="searchID" class="form-select">
+                    <option value="">All IDs</option>
+                    
+                        <option value="V59OF92YF627HFY0">V59OF92YF627HFY0</option>
+                    
+                        <option value="ABCD1234">ABCD1234</option>
+                    
+                        <option value="V59OF92YF627HFY0">V59OF92YF627HFY0</option>
+                    
+                        <option value="ABCD1234">ABCD1234</option>
+                    
+                        <option value="V59OF92YF627HFY0">V59OF92YF627HFY0</option>
+                    
+                        <option value="ABCD1234">ABCD1234</option>
+                    
+                        <option value="V59OF92YF627HFY0">V59OF92YF627HFY0</option>
+                    
+                        <option value="ABCD1234">ABCD1234</option>
+                    
+                </select>
+                <input type="text" id="inputID" class="form-control" placeholder="Search ID...">
+            </div>
+            <div class="col">
+                <select id="searchBio" class="form-select">
+                    <option value="">All Bios</option>
+                    
+                        <option value="Mauro Rossi eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.">Mauro Rossi eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</option>
+                    
+                        <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</option>
+                    
+                        <option value="Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.">Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</option>
+                    
+                        <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</option>
+                    
+                        <option value="Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.">Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</option>
+                    
+                        <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</option>
+                    
+                        <option value="Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.">Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</option>
+                    
+                        <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</option>
+                    
+                </select>
+                <input type="text" id="inputBio" class="form-control" placeholder="Search Bio...">
+            </div>
+            <div class="col">
+                <select id="searchVersion" class="form-select">
+                    <option value="">All Versions</option>
+                    
+                        <option value="6.1">6.1</option>
+                    
+                        <option value="5.5">5.5</option>
+                    
+                        <option value="6.1">6.1</option>
+                    
+                        <option value="5.5">5.5</option>
+                    
+                        <option value="6.1">6.1</option>
+                    
+                        <option value="5.5">5.5</option>
+                    
+                        <option value="6.1">6.1</option>
+                    
+                        <option value="5.5">5.5</option>
+                    
+                </select>
+                <input type="text" id="inputVersion" class="form-control" placeholder="Search Version...">
+            </div>
+        </div>
+        <table id="myTable" class="table table-hover custom-table"> 
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>ID</th>
+                    <th>Bio</th>
+                    <th>Version</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>Sindhi</td>
+                    <td>V59OF92YF627HFY0</td>
+                    <td>Mauro Rossi eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
+                    <td>6.1</td>
+                </tr>
+                
+                <tr>
+                    <td>English</td>
+                    <td>ABCD1234</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
+                    <td>5.5</td>
+                </tr>
+                
+                <tr>
+                    <td>Sindhi</td>
+                    <td>V59OF92YF627HFY0</td>
+                    <td>Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
+                    <td>6.1</td>
+                </tr>
+                
+                <tr>
+                    <td>English</td>
+                    <td>ABCD1234</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
+                    <td>5.5</td>
+                </tr>
+                
+                <tr>
+                    <td>Sindhi</td>
+                    <td>V59OF92YF627HFY0</td>
+                    <td>Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
+                    <td>6.1</td>
+                </tr>
+                
+                <tr>
+                    <td>English</td>
+                    <td>ABCD1234</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
+                    <td>5.5</td>
+                </tr>
+                
+                <tr>
+                    <td>Sindhi</td>
+                    <td>V59OF92YF627HFY0</td>
+                    <td>Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.</td>
+                    <td>6.1</td>
+                </tr>
+                
+                <tr>
+                    <td>English</td>
+                    <td>ABCD1234</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ligula in libero varius lacinia. Vestibulum nec mi metus. Sed ac rhoncus nisi, vitae eleifend neque. Suspendisse potenti.</td>
+                    <td>5.5</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var table = document.getElementById('myTable');
+            var searchLanguage = document.getElementById('searchLanguage');
+            var inputLanguage = document.getElementById('inputLanguage');
+            var searchID = document.getElementById('searchID');
+            var inputID = document.getElementById('inputID');
+            var searchBio = document.getElementById('searchBio');
+            var inputBio = document.getElementById('inputBio');
+            var searchVersion = document.getElementById('searchVersion');
+            var inputVersion = document.getElementById('inputVersion');
 
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
+            
+            inputLanguage.addEventListener('input', function () {
+                searchTable(0, inputLanguage.value.toLowerCase());
+                updateDropdownOptions(searchLanguage, 0, inputLanguage.value.toLowerCase());
+            });
+            inputID.addEventListener('input', function () {
+                searchTable(1, inputID.value.toLowerCase());
+                updateDropdownOptions(searchID, 1, inputID.value.toLowerCase());
+            });
+            inputBio.addEventListener('input', function () {
+                searchTable(2, inputBio.value.toLowerCase());
+                updateDropdownOptions(searchBio, 2, inputBio.value.toLowerCase());
+            });
+            inputVersion.addEventListener('input', function () {
+                searchTable(3, inputVersion.value.toLowerCase());
+                updateDropdownOptions(searchVersion, 3, inputVersion.value.toLowerCase());
+            });
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            
+            searchLanguage.addEventListener('change', function () {
+                searchTable(0, searchLanguage.value.toLowerCase());
+            });
+            searchID.addEventListener('change', function () {
+                searchTable(1, searchID.value.toLowerCase());
+            });
+            searchBio.addEventListener('change', function () {
+                searchTable(2, searchBio.value.toLowerCase());
+            });
+            searchVersion.addEventListener('change', function () {
+                searchTable(3, searchVersion.value.toLowerCase());
+            });
+
+            function searchTable(columnIndex, filter) {
+                var rows = table.getElementsByTagName('tr');
+                for (var i = 0; i < rows.length; i++) {
+                    var row = rows[i];
+                    var cells = row.getElementsByTagName('td');
+                    if (cells.length > columnIndex) {
+                        var cell = cells[columnIndex];
+                        if (filter === "" || cell.innerText.toLowerCase().indexOf(filter) > -1) {
+                            row.style.display = '';
+                        } else {
+                            row.style.display = 'none';
+                        }
+                    }
+                }
             }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
+
+            function updateDropdownOptions(selectElement, columnIndex, filter) {
+                var options = selectElement.getElementsByTagName('option');
+                for (var i = 0; i < options.length; i++) {
+                    var option = options[i];
+                    if (option.value === filter || filter === "") {
+                        option.style.display = '';
+                    } else {
+                        option.style.display = 'none';
+                    }
+                }
+                if (filter !== "" && selectElement.selectedIndex !== 0) {
+                    selectElement.selectedIndex = 0;
+                }
             }
         });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
+    </script>
 </body>
-
 </html>
+

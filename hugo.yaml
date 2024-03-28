@@ -45,6 +45,10 @@ menu:
       name: Tabella Json
       url: /data_from_json/data_json
       weight: 30
+    - identifier: Dropdown
+      name: Dropdown
+      url: /data_inside_dropdown/dropdown
+      weight: 60
 
 outputs:
   home:

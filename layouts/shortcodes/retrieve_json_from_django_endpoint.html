@@ -1,0 +1,13 @@
+{{/* layouts/shortcodes/nationlist.html */}}
+
+{{ $url := "http://127.0.0.1:8085/django_api_for_wagtail/nations" }}
+
+
+<div id="nation-list">
+  {{ range (getJSON $url) }}
+    <div class="nation">
+      <span class="name">{{ .name }}</span> - <span class="capital">{{ .capital }}</span>
+    </div>
+  {{ end }}
+</div>
+

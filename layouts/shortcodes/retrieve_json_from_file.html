@@ -10,19 +10,43 @@
 <body>
     {{ $jsonData := getJSON "data/json_file/RandomData.json" }}
     <div class="table-responsive">
-        <!-- Search inputs -->
+        <!-- Search dropdowns -->
         <div class="row mb-3">
             <div class="col">
-                <input type="text" id="searchLanguage" class="form-control" placeholder="Search Language...">
+                <select id="searchLanguage" class="form-select">
+                    <option value="">All Languages</option>
+                    {{ range $index, $data := $jsonData }}
+                        <option value="{{ $data.Language }}">{{ $data.Language }}</option>
+                    {{ end }}
+                </select>
+                <input type="text" id="inputLanguage" class="form-control" placeholder="Search Language...">
             </div>
             <div class="col">
-                <input type="text" id="searchID" class="form-control" placeholder="Search ID...">
+                <select id="searchID" class="form-select">
+                    <option value="">All IDs</option>
+                    {{ range $index, $data := $jsonData }}
+                        <option value="{{ $data.ID }}">{{ $data.ID }}</option>
+                    {{ end }}
+                </select>
+                <input type="text" id="inputID" class="form-control" placeholder="Search ID...">
             </div>
             <div class="col">
-                <input type="text" id="searchBio" class="form-control" placeholder="Search Bio...">
+                <select id="searchBio" class="form-select">
+                    <option value="">All Bios</option>
+                    {{ range $index, $data := $jsonData }}
+                        <option value="{{ $data.Bio }}">{{ $data.Bio }}</option>
+                    {{ end }}
+                </select>
+                <input type="text" id="inputBio" class="form-control" placeholder="Search Bio...">
             </div>
             <div class="col">
-                <input type="text" id="searchVersion" class="form-control" placeholder="Search Version...">
+                <select id="searchVersion" class="form-select">
+                    <option value="">All Versions</option>
+                    {{ range $index, $data := $jsonData }}
+                        <option value="{{ $data.Version }}">{{ $data.Version }}</option>
+                    {{ end }}
+                </select>
+                <input type="text" id="inputVersion" class="form-control" placeholder="Search Version...">
             </div>
         </div>
         <table id="myTable" class="table table-hover custom-table"> <!-- Added ID for JavaScript interaction -->
@@ -30,7 +54,7 @@
                 <tr>
                     <th>Language</th>
                     <th>ID</th>
-                    <th>Bioooo</th>
+                    <th>Bio</th>
                     <th>Version</th>
                 </tr>
             </thead>
@@ -51,24 +75,41 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var table = document.getElementById('myTable');
-            var searchLanguage = document.getElementById('languageID');
+            var searchLanguage = document.getElementById('searchLanguage');
+            var inputLanguage = document.getElementById('inputLanguage');
             var searchID = document.getElementById('searchID');
+            var inputID = document.getElementById('inputID');
             var searchBio = document.getElementById('searchBio');
+            var inputBio = document.getElementById('inputBio');
             var searchVersion = document.getElementById('searchVersion');
+            var inputVersion = document.getElementById('inputVersion');
             
-            searchLanguage.addEventListener('input', function () {
-                searchTable(0, languageID.value.toLowerCase());
+            searchLanguage.addEventListener('change', function () {
+                searchTable(0, searchLanguage.value.toLowerCase());
             });
-            searchID.addEventListener('input', function () {
+            inputLanguage.addEventListener('input', function () {
+                searchTable(0, inputLanguage.value.toLowerCase());
+            });
+            
+            searchID.addEventListener('change', function () {
                 searchTable(1, searchID.value.toLowerCase());
             });
-            
-            searchBio.addEventListener('input', function () {
-                searchTable(2, searchBio.value.toLowerCase());
+            inputID.addEventListener('input', function () {
+                searchTable(1, inputID.value.toLowerCase());
             });
             
-            searchVersion.addEventListener('input', function () {
+            searchBio.addEventListener('change', function () {
+                searchTable(2, searchBio.value.toLowerCase());
+            });
+            inputBio.addEventListener('input', function () {
+                searchTable(2, inputBio.value.toLowerCase());
+            });
+            
+            searchVersion.addEventListener('change', function () {
                 searchTable(3, searchVersion.value.toLowerCase());
+            });
+            inputVersion.addEventListener('input', function () {
+                searchTable(3, inputVersion.value.toLowerCase());
             });
             
             function searchTable(columnIndex, filter) {
@@ -78,12 +119,36 @@
                     var cells = row.getElementsByTagName('td');
                     if (cells.length > columnIndex) {
                         var cell = cells[columnIndex];
-                        if (cell.innerText.toLowerCase().indexOf(filter) > -1) {
+                        if (filter === "" || cell.innerText.toLowerCase().indexOf(filter) > -1) {
                             row.style.display = '';
                         } else {
                             row.style.display = 'none';
                         }
                     }
+                }
+                
+                // Update dropdown options based on the current filter selection
+                updateDropdownOptions(searchLanguage, columnIndex, filter);
+                updateDropdownOptions(searchID, columnIndex, filter);
+                updateDropdownOptions(searchBio, columnIndex, filter);
+                updateDropdownOptions(searchVersion, columnIndex, filter);
+            }
+            
+            function updateDropdownOptions(selectElement, columnIndex, filter) {
+                // Show or hide options based on the current filter selection
+                var options = selectElement.getElementsByTagName('option');
+                for (var i = 0; i < options.length; i++) {
+                    var option = options[i];
+                    if (option.value === filter || filter === "") {
+                        option.style.display = '';
+                    } else {
+                        option.style.display = 'none';
+                    }
+                }
+                
+                // If the filter is not empty and the selected option is not "All", select the "All" option
+                if (filter !== "" && selectElement.selectedIndex !== 0) {
+                    selectElement.selectedIndex = 0;
                 }
             }
         });
