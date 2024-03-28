@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:41929/tags/</link>
+    <link>http://localhost:35695/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Mar 2024 10:30:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:41929/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:35695/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adventure</title>
-      <link>http://localhost:41929/tags/adventure/</link>
+      <link>http://localhost:35695/tags/adventure/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/adventure/</guid>
+      <guid>http://localhost:35695/tags/adventure/</guid>
       <description></description>
     </item>
     <item>
       <title>Cooking</title>
-      <link>http://localhost:41929/tags/cooking/</link>
+      <link>http://localhost:35695/tags/cooking/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/cooking/</guid>
+      <guid>http://localhost:35695/tags/cooking/</guid>
       <description></description>
     </item>
     <item>
       <title>Fitness</title>
-      <link>http://localhost:41929/tags/fitness/</link>
+      <link>http://localhost:35695/tags/fitness/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/fitness/</guid>
+      <guid>http://localhost:35695/tags/fitness/</guid>
       <description></description>
     </item>
     <item>
       <title>Foodie</title>
-      <link>http://localhost:41929/tags/foodie/</link>
+      <link>http://localhost:35695/tags/foodie/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/foodie/</guid>
+      <guid>http://localhost:35695/tags/foodie/</guid>
       <description></description>
     </item>
     <item>
       <title>Fun</title>
-      <link>http://localhost:41929/tags/fun/</link>
+      <link>http://localhost:35695/tags/fun/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/fun/</guid>
+      <guid>http://localhost:35695/tags/fun/</guid>
       <description></description>
     </item>
     <item>
       <title>Inspiration</title>
-      <link>http://localhost:41929/tags/inspiration/</link>
+      <link>http://localhost:35695/tags/inspiration/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/inspiration/</guid>
+      <guid>http://localhost:35695/tags/inspiration/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>http://localhost:41929/tags/music/</link>
+      <link>http://localhost:35695/tags/music/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/music/</guid>
+      <guid>http://localhost:35695/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>http://localhost:41929/tags/nature/</link>
+      <link>http://localhost:35695/tags/nature/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/nature/</guid>
+      <guid>http://localhost:35695/tags/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>Photography</title>
-      <link>http://localhost:41929/tags/photography/</link>
+      <link>http://localhost:35695/tags/photography/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/photography/</guid>
+      <guid>http://localhost:35695/tags/photography/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>http://localhost:41929/tags/travel/</link>
+      <link>http://localhost:35695/tags/travel/</link>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
-      <guid>http://localhost:41929/tags/travel/</guid>
+      <guid>http://localhost:35695/tags/travel/</guid>
       <description></description>
     </item>
   </channel>

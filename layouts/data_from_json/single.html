@@ -1,6 +1,5 @@
 {{- define "main" }}
 
-  
   {{ $jsonData := getJSON "data/json_file/RandomData.json" }}
   <div class="table-responsive">
       <!-- Search inputs -->
@@ -28,13 +27,15 @@
               </tr>
           </thead>
           <tbody>
-              {{ range $index, $data := $jsonData }}
-              <tr>
+              {{ $even := false }}
+              {{ range $data := $jsonData }}
+              <tr class="{{ if $even }}table-secondary{{ else }}table-primary{{ end }}">
                   <td>{{ $data.Language }}</td>
                   <td>{{ $data.ID }}</td>
                   <td>{{ $data.Bio }}</td>
                   <td>{{ $data.Version }}</td>
               </tr>
+              {{ $even = not $even }}
               {{ end }}
           </tbody>
       </table>
