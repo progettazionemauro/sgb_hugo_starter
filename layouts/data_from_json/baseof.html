@@ -6,7 +6,7 @@
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
-    {{- partial "head.html" . }}
+    {{- partial "header_from_json.html" . }}
 </head>
 
 <body class="
@@ -17,7 +17,7 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}}
+    {{- partialCached "header_from_json.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}
        
