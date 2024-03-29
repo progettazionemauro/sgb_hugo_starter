@@ -9,10 +9,17 @@
     <lastBuildDate>Wed, 27 Mar 2024 18:13:13 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data_json</title>
+      <title>Data From Endpoint</title>
       <link>http://localhost:1313/data_from_json/data_json/</link>
       <pubDate>Wed, 27 Mar 2024 18:13:13 +0100</pubDate>
       <guid>http://localhost:1313/data_from_json/data_json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data_json</title>
+      <link>http://localhost:1313/data_from_endpoint/data_from_endpoint/</link>
+      <pubDate>Wed, 27 Mar 2024 18:13:13 +0100</pubDate>
+      <guid>http://localhost:1313/data_from_endpoint/data_from_endpoint/</guid>
       <description></description>
     </item>
     <item>
@@ -70,13 +77,6 @@ Finally set theme as PaperMod in your site config In config.</description>
       <pubDate>Mon, 18 Mar 2024 10:30:18 +0100</pubDate>
       <guid>http://localhost:1313/posts/il_mio_secondo_post-/</guid>
       <description>Cos’è Lorem Ipsum? Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.</description>
-    </item>
-    <item>
-      <title>Dropdown</title>
-      <link>http://localhost:1313/data_inside_dropdown/dropdown/</link>
-      <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/data_inside_dropdown/dropdown/</guid>
-      <description>Create beautiful interactive image gallery using Markdown</description>
     </item>
     <item>
       <title>ABOUT</title>

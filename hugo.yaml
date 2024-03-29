@@ -45,9 +45,9 @@ menu:
       name: Tabella Json
       url: /data_from_json/data_json
       weight: 30
-    - identifier: Dropdown
-      name: Dropdown
-      url: /data_inside_dropdown/dropdown
+    - identifier: Endpoint
+      name: Endpoint
+      url: /data_from_endpoint/data_from_endpoint
       weight: 60
 
 outputs:
