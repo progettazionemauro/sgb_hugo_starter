@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/data_from_json/data_json/</loc>
+    <lastmod>2024-03-27T18:13:13+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/data_from_endpoint/</loc>
     <lastmod>2024-03-27T18:13:13+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/data_from_json/</loc>
     <lastmod>2024-03-27T18:13:13+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/data_from_endpoint/data_from_enpoint/</loc>
-    <lastmod>2024-03-27T18:13:13+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/data_from_json/data_json/</loc>
+    <loc>http://localhost:1313/data_from_endpoint/data_from_endpoint/</loc>
     <lastmod>2024-03-27T18:13:13+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>

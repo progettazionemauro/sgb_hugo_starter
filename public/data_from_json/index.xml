@@ -9,7 +9,7 @@
     <lastBuildDate>Wed, 27 Mar 2024 18:13:13 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/data_from_json/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data_json</title>
+      <title>Data From Endpoint</title>
       <link>http://localhost:1313/data_from_json/data_json/</link>
       <pubDate>Wed, 27 Mar 2024 18:13:13 +0100</pubDate>
       <guid>http://localhost:1313/data_from_json/data_json/</guid>

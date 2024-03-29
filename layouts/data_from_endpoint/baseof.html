@@ -17,7 +17,7 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header_from_json.html" . .Page -}}
+    {{- partialCached "header_from_endpoint.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}
        
